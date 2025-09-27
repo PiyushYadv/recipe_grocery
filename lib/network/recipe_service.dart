@@ -1,13 +1,10 @@
 import 'package:chopper/chopper.dart';
+import 'package:recipe_grocery/secret.dart';
 import 'recipe_model.dart';
 import 'model_response.dart';
 import 'model_converter.dart';
 
 part 'recipe_service.chopper.dart';
-
-const String apiKey = 'cb37d989a2027aba35bf7aacaea3b020';
-const String apiId = '0c83e514';
-const String apiUrl = 'https://api.edamam.com';
 
 @ChopperApi()
 abstract class RecipeService extends ChopperService {
